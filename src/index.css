@@ -1,0 +1,79 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-actions button i {
+    margin-right: 5px;
+}
+
+.comment-section input {
+    width: 80%;
+    padding: 5px;
+}
+
+.comment-section button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-form button i.fa-solid.fa-circle-plus {
+    color: green;
+}
+
+.post-actions button i.fa-regular.fa-thumbs-up {
+    color: gray;
+}
+
+.post-actions button.active i.fa-solid.fa-thumbs-up {
+    color: blue;
+}
+
+.post-actions button i.fa-solid.fa-comment-dots {
+    color: orange;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
