@@ -14,7 +14,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app); // ✅ Firestore for storing posts
-const storage = getStorage(app); // ✅ Firebase Storage for images
+const db = getFirestore(app); 
+const storage = getStorage(app); 
 
 export { db, storage };
